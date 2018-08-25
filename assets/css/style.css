@@ -1,5 +1,5 @@
 /**
- Basic - Portafolio Styles.css
+ INDEX Styles.css
  **/
 
 * {
@@ -17,7 +17,7 @@
 }
 
 p {
-    margin-left: 20px;
+    margin-left: 35px;
     margin-right: 50px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -81,11 +81,13 @@ body {
   }
 
 
-  li {
+  ul {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left: 35px;
   }
   nav {
     float: right;
+    margin-right: 300px;
   }
   
   .navlink {
@@ -97,15 +99,13 @@ body {
     margin-left: 0;
   }
   
-  .container {  
-    width: 1024px;
-    margin: 0 auto;
-  }
-  
   #main-bio,
   #bio-image {
     float: left;
   }
+
+    /** ===== CONTACT CSS =========
+    **/
   
   #contact-info {
     margin-top: 0;
@@ -125,15 +125,15 @@ body {
   #fullpage {
     background-color: #efeee7;
     width: 100%;
-}
+  }
 
- #submit {
-  color: #eee;
-  text-align: center;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 20px;
-  background-color: #4aaaa5;
-  padding: 15px;
+  #submit {
+    color: #eee;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: #4aaaa5;
+    padding: 15px;
   }
 
   #bio-image {
@@ -150,46 +150,44 @@ body {
     border-color:#dddddd;
     background-color: #ffffff;
     width: 70%;
+ 
+
+
+  /** ===== PORTFOLIO CSS =========
+  **/
+
   }
   #img_section {
-    margin-left: 100px;
+    margin: 0 auto;
+    max-width: 960px;
   }
-
-
-  /* Container holding the image and the text */
-
 
   .container {
     position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    margin: 0px 0px 50px 50px;
 
   }
-  .group1 {
-      float: left;
-      padding: 5px;
-  }
-  .group2 {
-    float: left;
-    padding: 5px;
-  }
-  .group3 {
-    float: left;
-    padding: 5px;
+
+  .text-block {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    padding: 0px 25px;
+    width: 200px;
+    background-color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    color: white;
   }
 
-/* Bottom right text */
-.text-block {
-  text-decoration: none;
-  position: relative;
-  bottom: 20px;
-  right: 20px;
-  background-color: #4aaaa5;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 15px;
-  color: white;
-  padding-left: 35%;
-  padding-right: 35%;
+  .port-content {
+    padding: 0px 25px;
+  }
 
-}
 .text-block h4 {
   background-color: #4aaaa5;
 }
