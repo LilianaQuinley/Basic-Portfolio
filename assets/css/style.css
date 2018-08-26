@@ -127,6 +127,10 @@ body {
     width: 100%;
   }
 
+  #text {
+    width: 534px;
+  }
+
   #submit {
     color: #eee;
     text-align: center;
